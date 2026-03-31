@@ -1,0 +1,11 @@
+index.php
+quiz.sql
+opis.txt
+css.css
+pasek.png
+Robiłęm Ja
+
+java.js
+zapisz_wynik.php
+pobierz_pytania.php
+Robiła Gemini AI

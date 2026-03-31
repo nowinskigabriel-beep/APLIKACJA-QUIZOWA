@@ -1,0 +1,75 @@
+body{
+    background-image: url('łąka.webp');
+    font-family: "MS Sans Serif", Tahoma, sans-serif;
+    background-repeat: repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    }
+
+strong{
+
+    text-align: center;
+    padding: 2px 5px;
+}
+
+.zalogowanie{
+    background: linear-gradient(#f1f2ee, #f3f3ef, #f5f5f1);
+}
+
+.podłoga{
+
+    background: linear-gradient(#7199f8, #4679f5, #4d7bf6, #1b4bbd, #306bf4);
+    color: #ffffff;
+}
+
+.X{
+    background: linear-gradient(#e97c62, #e8765d, #efa390, #e35937, #ad3a1d, #e8765d, #cc3e1b, #e8765d);
+    color: #ffffff;
+}
+
+.pole{
+    width: 450px;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+.naw{
+display: flex; /* wszystko w jednej kolumnie*/
+gap: 5px; /*przerwa pomiędzy*/
+border-bottom: 1px solid; /*rozmiar obwódki*/
+border-color: #808080; /*color zamiast tego opalonego koloru*/
+}
+
+header{
+    background: linear-gradient(90deg, #0057ed, #0167fd,#1084d0); /* to z wyłu kolor przechodzi z jednego w drugi*/
+    color: #ffffff; /* koloe tekstu */
+    display: flex; 
+    align-items: center; /*środkuję kolumne bez tego x i podłoga pokazują się na górze*/
+    justify-content: space-between; /*odstep pomiedzy tym W [] a x i podłogą*/
+}
+
+.okno{
+    width: 500px;
+    background-color: #c0c0c0; /*kolor z tyłu*/
+    align-items: center;
+    border: 2px solid;
+    border-color: #ffffff #808080 #808080 #ffffff;
+}
+
+p{
+     text-align: center;
+}
+
+input{
+    border: 2px solid;
+    border-color: #808080 #ffffff #ffffff #808080; /*kolor pola tekstu dla użytkownika*/
+    width: 95%;
+    background: #ffffff;
+}
